@@ -1,14 +1,14 @@
-# Help Prospect Heights!
+# Help Long Island City!
 
 **CONTRIBUTIONS WELCOME**, both in terms of content and design/features.
 
-This website is built using [Jekyll](https://jekyllrb.com) and [Tachyons](http://tachyons.io) and served using GitHub Pages.
+This is a fork of [prospectheightsbk.com](https://github.com/irace/prospectheightsbk.com) by [Bryan Irace](https://github.com/irace)
 
 ## Content
 
 Content is all managed within `_data/places.yml`.
 
-An (incomplete) list of businesses to potentially add can be found [on this wiki page](https://github.com/irace/prospectheightsbk.com/wiki).
+An (incomplete) list of businesses to potentially add can be found [on this wiki page](https://github.com/jasonseney/licsupport.nyc/wiki).
 
 # License
 
