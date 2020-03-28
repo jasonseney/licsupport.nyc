@@ -6,16 +6,6 @@ title: Help Prospect Heights
 <html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-22036475-4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-22036475-4");
-    </script>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -39,19 +29,19 @@ title: Help Prospect Heights
   </head>
   <body class="w-100 sans-serif bg-black-10 code">
     <main class="black-70 mh5-ns mh2-m mh2">
-      <h1 class="f1 lh-title tc yellowtail green">Help Long Island City!</h1>
-      <p class="f5 lh-copy tc">
-        Things are moving fast – please follow each business on Instagram for their latest updates.
+        <div class="f1 lh-title tc"><img src="/header-wide.png" /></div>
+      <p class="f5 lh-copy tc">Support local businesses during the COVID-19 pandemic.</p>
+      <p class="f7 lh-copy tc">
+          <strong>Things are changing frequently – please follow each business on Instagram for their latest updates.</strong><br /> <a href="mailto:jrseney@gmail.com">Contribute corrections or additions here.</a>
       </p>
       <p class="f7 lh-copy tc">
-        <strong>We need your help to keep this information accurate and comprehensive!</strong> <a href="mailto:jrseney@gmail.com">Please contribute corrections or additions</a>
+        🌟&nbsp;Free meals for those in need 12-2pm through <a href="http://licrelief.org">LIC Relief</a>.
       </p>
-      <p class="f7 lh-copy tc">
-        🌟&nbsp;Donate directly to our local service workers via <a href="https://bit.ly/givephtips">Prospect Heights Virtual Tip Jar</a>
-      </p>
+      <!--
       <p class="f7 lh-copy tc">
         🌟&nbsp;Donate to the <a href="https://docs.google.com/document/d/108A-_IzPjfDhLZEfTcIqkXmTzyefS3yxtCdN14Pph3s/edit?fbclid=IwAR1kBvIgOuA7b6CdxWslLK0aySLUCTwlZzWzARbBrEM6eV-yOCXmvr6op7g">Prospect Heights Small Business Relief Fund</a> (includes many of the businesses below)
       </p>
+      -->
       <p class="f7 lh-copy tc"> Questions about food safety?
         <a href="https://www.seriouseats.com/2020/03/food-safety-and-coronavirus-a-comprehensive-guide.html"
           >Food Safety and Coronavirus: A Comprehensive Guide</a
@@ -61,17 +51,22 @@ title: Help Prospect Heights
 
         <div class="w-100 w-100-m w-third-ns pa2">
           <div class="bg-white shadow-4 br2 h-100 pa3">
-            <div class="f4 lh-copy mv0 pa0 ttu">
-              {% if place.url %}
-              <a class="link dim dark-blue" href="{{ place.url }}">{{ place.name }}</a>{% else %} {{ place.name }} {% endif %} {% if
-              place.instagram %}<a class="v-mid" href="{{ place.instagram }}"><img style="width: 25px;" src="icons/instagram.png"/></a>{%
-              endif %} {% if place.untappd %}<a class="v-mid" href="{{ place.untappd }}"
-                ><img style="width: 25px;" src="icons/untappd.png"/></a
-              >{% endif %}
+                <div class="f4 lh-copy mv0 pa0 ttu">
+                  {% if place.url %}
+                  <a class="link dim dark-blue" href="{{ place.url }}">{{ place.name }}</a>{% else %} {{ place.name }} {% endif %} {% if
+                  place.instagram %}<a class="v-mid" href="{{ place.instagram }}"><img style="width: 20px;" src="icons/instagram.png"/></a>{%
+                  endif %} {% if place.untappd %}<a class="v-mid" href="{{ place.untappd }}"
+                    ><img style="width: 25px;" src="icons/untappd.png"/></a
+                  >{% endif %}
+                </div>
+            <div class="f7 lh-copy black-70">
+                {% if place.address %}
+                    <a href="https://www.google.com/maps/place/{{place.address}}">Map</a>
+                {% endif %} {% if place.phone %}
+                    |&nbsp;<a class="link dim purple" href="tel:{{ place.phone }}">{{ place.phone }}</a>
+                {% endif %}
             </div>
-            {% if place.phone %}
-            <div class="f7 lh-copy black-70"><a class="link dim purple" href="tel:{{ place.phone }}">{{ place.phone }}</a></div>
-            {% endif %} {% if place.hours %}
+            {% if place.hours %}
             <div class="f7 lh-copy black-70">{{ place.hours}}</div>
             {% endif %}
             <div>
@@ -92,13 +87,16 @@ title: Help Prospect Heights
               <a href="{{ place.delivery.uber_eats }}"><img class="delivery_icon" src="icons/uber_eats.png"/></a>
               {% endif %} {% if place.delivery.upserve %}
               <a href="{{ place.delivery.upserve }}"><img class="delivery_icon" src="icons/upserve.png"/></a>
+              {% endif %} {% if place.delivery.grubhub %}
+              <a href="{{ place.delivery.grubhub }}"><img class="delivery_icon" src="icons/grubhub.png"/></a>
               {% endif %}
             </div>
 
             {% for link in place.links %}
             <p><a class="f6 link dim dark-green" href="{{ link.url }}">{{ link.title }}</a></p>
-            {% endfor %} {% if place.last_updated %}
-            <div class="mb0 pb0 f7 lh-copy black-40">Last updated: {{ place.last_updated}}</div>
+            {% endfor %}
+            {% if place.last_updated %}
+            <div class="f7 mb0 pb0 lh-copy black-40">Last updated: {{ place.last_updated}}</div>
             {% endif %}
           </div>
         </div>
@@ -128,23 +126,26 @@ title: Help Prospect Heights
             </div>
             {% endif %} {% for link in place.links %}
             <p><a class="f6 link dim dark-green" href="{{ link.url }}">{{ link.title }}</a></p>
-            {% endfor %} {% if place.last_updated %}
-            <div class="mb0 pb0 f7 lh-copy black-40">Last updated: {{ place.last_updated}}</div>
-            {% endif %}
+            {% endfor %}
+            <div class="f7 cf">
+                {% if place.last_updated %}
+                <div class="mb0 pb0 lh-copy black-40 fl w-80">Last updated: {{ place.last_updated}}</div>
+                {% endif %}
+            </div>
           </div>
         </div>
         {% endfor %}
 
         <div class="w-100 mv3">
-          <h1 class="f5 lh-copy tc"><a href="https://www.instagram.com/nyhospcoalition/">@nyhospcoalition</a>&#32;&bull;&#32;<a href="https://www.instagram.com/serviceworkerscoalition/">@serviceworkerscoalition</a>&#32;&bull;&#32;<a href="https://www.instagram.com/save_brooklyn/">@save_brooklyn</a>&#32;&bull;&#32;<a href="https://www.instagram.com/explore/tags/savebrooklyn/">#savebrooklyn</a></h1>
+          <h1 class="f5 lh-copy tc"><a href="https://www.instagram.com/licrelief/">@licrelief</a>&#32;&bull;&#32;<a href="https://www.instagram.com/serviceworkerscoalition/">@serviceworkerscoalition</a>&#32;&bull;&#32;</h1>
           <p class="f7 lh-copy tc">
-            This site is <a href="https://github.com/irace/prospectheightsbk.com">open source</a> and would love your contributions!
+            This site is <a href="https://github.com/jasonseney/licsupport.nyc">open source</a> and would love your contributions!
           </p>
         </div>
       </div>
     </main>
 
-    <a href="https://github.com/irace/prospectheightsbk.com" class="github-corner" aria-label="View source on GitHub"
+    <a href="https://github.com/jasonseney/licsupport.nyc" class="github-corner" aria-label="View source on GitHub"
       ><svg
         width="80"
         height="80"
