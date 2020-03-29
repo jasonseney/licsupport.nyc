@@ -10,7 +10,7 @@ An (incomplete) list of businesses to potentially add can be found [on this wiki
 
 ## Forking for your Neighborhood
 
-The site is generated using the [Jekyll](https://jekyllrb.com) version 3. static site platfrom on Ruby. Quick setup requires `ruby` and `bundler`. Using `bundle install` will install all the required gems for Jekyll to run on github pages. To run the site locally, use the command `bundle exec jekyll serve`.
+The site is generated using the [Jekyll](https://jekyllrb.com) static site platfrom on Ruby. Quick setup requires `ruby` and `bundler`. Using `bundle install` will install all the required gems for Jekyll to run on github pages. To run the site locally, use the command `bundle exec jekyll serve`.
 
 Most of the custom fields for the neighborhood are in the config file, front matter, and the includes html files. Note that Jekyll must be restarted to recognize any changes in the config file.
 
