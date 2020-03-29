@@ -1,7 +1,21 @@
 open:
+  - name: American Brass
+    url: https://www.americanbrasslic.com
+    instagram: american_brass
+    phone: (718) 806-1106
+    hours: 4pm - 8pm (daily)
+    address: 48-19 Vernon Boulevard, Long Island City NY 11101
+    notes: Open for pick-up and delivery. Craft beer and cocktails available.
+    links:
+      - title: Order online here
+        url: https://www.toasttab.com/americanbrass/v3#!/
+      - title: Gantry Hospitality Family Relief Fund
+        url: https://www.gofundme.com/f/gantry-hospitality-family-relief-fund?utm_source=customer
+    last_updated: 3/28
+    
   - name: Bareburger
     url: https://www.bareburger.com
-    instagram: https://www.instagram.com/bareburger/
+    instagram: bareburger
     phone: 718-937-2273
     hours: 12:00 PM - 9:00 PM (daily)
     address: 48-19 Vernon Boulevard, Long Island City NY 11101
@@ -13,7 +27,7 @@ open:
     
   - name: Bella Via
     url: https://bellavialic.com
-    instagram: https://www.instagram.com/bellavia.lic/
+    instagram: bellavia.lic
     hours: 12pm - 9pm (Tues - Sunday)
     phone: (718) 361-7510
     address: 47-46 Vernon Blvd, Queens, NY 11101
@@ -25,7 +39,7 @@ open:
 
   - name: Blend LIC
     url: https://www.blendlic.com
-    instagram: https://www.instagram.com/blendlic/
+    instagram: blendlic
     hours: 11am - 9pm (daily)
     phone: 718-729-2800
     address: 47-04 Vernon Boulevard, Long Island City, NY 11101
@@ -40,7 +54,7 @@ open:
 
   - name: BLVD Wine Bar
     url: https://www.blvdlic.com
-    instagram: https://www.instagram.com/blvdlic/
+    instagram: blvdlic
     hours: 5:00 pm - 10:00 pm (Sun-Thurs)<br />5:00 pm - 11:00 pm (Fri-Sat)
     phone: 718-440-8520
     address: 4720 Center Boulevard, Long Island City, NY 11109
@@ -56,7 +70,7 @@ open:
 
   - name: Centro Pizza Bar 🌟 
     url: https://www.centropizzabar.com
-    instagram: https://www.instagram.com/centropizzabar/
+    instagram: centropizzabar
     phone: (718)-361-2751
     hours: 10am - 10pm (Sun-Thurs)<br />10am - 11pm (Fri-Sat)
     address: 47-23 Vernon Boulevard, Long Island City, NY 11101
@@ -71,7 +85,7 @@ open:
 
   - name: Cyclo
     url: https://www.cyclolic.com
-    instagram: https://www.instagram.com/cyclo_lic/
+    instagram: cyclo_lic
     phone: 718-786-8309
     hours: 11:30 am - 8:30 PM (daily)
     address: 5-51 47th Avenue, Long Island City, NY 11101
@@ -83,7 +97,7 @@ open:
     last_updated: 3/28
 
   - name: Dutch Kills
-    instagram: https://www.instagram.com/dutchkillsbar/
+    instagram: dutchkillsbar
     hours: 3:00 PM - 9:00 PM (Wed-Sun)
     address: 27-24 Jackson Ave, Long Island City NY
     notes: To go cocktails and snacks.<br /><br /><b>“Free cocktails for healthcare workers who are working on the Covid-19 crisis”</b> 
@@ -94,7 +108,7 @@ open:
 
   - name: Little Chef Little Cafe  🌟
     url: 
-    instagram: https://www.instagram.com/littlecheflittlecafe/
+    instagram: littlecheflittlecafe
     phone: 845-310-4255
     hours: 10am - 2pm (daily)
     address: 5-43 48th Ave. Long Island City, NY 11101 
@@ -103,7 +117,7 @@ open:
 
   - name: Manetta's
     url: http://www.manettaslic.com
-    instagram: https://www.instagram.com/manettaslic/
+    instagram: manettaslic
     phone: (718) 786-6171
     hours: Call for hours
     address: 10-76 Jackson Ave, Long Island City, NY 11101 
@@ -115,7 +129,7 @@ open:
 
   - name: Piatto 🌟 
     url: https://piattolic.com
-    instagram: https://www.instagram.com/bareburger/
+    instagram: bareburger
     phone: (718)-361-2751
     hours: 11am - 10pm (daily)
     address: 1-50 50th Ave, Long Island City, NY 11101
@@ -126,7 +140,7 @@ open:
 
   - name: Sapps LIC
     url: https://www.sappslic.com
-    instagram: https://www.instagram.com/sapps_lic/
+    instagram: sapps_lic
     phone: 718-784-5555
     hours: 1:30PM - 9:30PM (Mon-Sat)
     address: 27-26 Jackson Ave, Long Island City, NY 11109 
@@ -138,7 +152,7 @@ open:
 
   - name: Skinny's Cantina
     url: https://www.skinnyscantina.com
-    instagram: https://www.instagram.com/skinnyscantina/
+    instagram: skinnyscantina
     phone: (718) 729-8300
     hours: 1pm - 10:15pm (daily)
     address: 4705 Center Blvd, Long Island City, NY 11109 
@@ -153,7 +167,7 @@ open:
 
   - name: Takumen
     url: http://www.takumenlic.com
-    instagram: https://www.instagram.com/takumenlic/
+    instagram: takumenlic
     phone: 718-361-7973
     hours: 12pm - 9pm (daily)
     address: 5-50 50TH AVENUE, LONG ISLAND CITY, NEW YORK, 11101
@@ -167,7 +181,7 @@ open:
 
   - name: Woodbines
     url: www.woodbineslic.com
-    instagram: https://www.instagram.com/woodbineslic/
+    instagram: woodbineslic
     phone: 718-361-8488
     hours: 11am - 10pm (daily)
     address: 47-10 Vernon Boulevard, Long Island City, NY 11101 
@@ -181,7 +195,7 @@ open:
 closed:
   - name: Blend on the Water
     url: https://www.blendonthewater.com
-    instagram: https://www.instagram.com/blendonthewater/
+    instagram: blendonthewater
     hours: 11am - 9pm (daily)
     phone: 718-606-9851
     address: 4540 Center Blvd, Long Island City, NY 11109
@@ -189,26 +203,26 @@ closed:
     last_updated: 3/29
   - name: Casa Enrique
     url: https://www.henrinyc.com/casa-enrique/
-    instagram: https://www.instagram.com/casaenrique/
+    instagram: casaenrique
     notes: Closed until further notice
     last_updated: 3/28
   - name: Communitea
     url: https://www.facebook.com/CommuniteaLIC
-    instagram: https://www.instagram.com/communitealic/
+    instagram: communitealic
     notes: Closed until further notice
     last_updated: 3/29
   - name: Gantry Bar LIC
-    instagram: https://www.instagram.com/gantry_bar_lic/
+    instagram: gantry_bar_lic
     notes: Closed until further notice
     last_updated: 3/28
   - name: Mu Ramen
     url: https://www.muramennyc.com
-    instagram: https://www.instagram.com/mu_ramen/
+    instagram: mu_ramen
     notes: With a heavy heart we decided to close Mu Ramen for the next two weeks or until situation abates to support NYC’s efforts to contain the spread of COVID-19. We believe this is the right step to take to ensure the safety of our staff, guests and our community. We will continue to update you as situation evolves and look forward to welcoming you all back soon.
     last_updated: 3/29
   - name: Shi
     url: https://www.shilic.com
-    instagram: https://www.instagram.com/shi_lic/
+    instagram: shi_lic
     phone: (347) 242-2448
     address: 47-20 Center Blvd, Long Island City, NY 11109 
     notes: We at SHI are going full shutdown during the Corona Virus Crisis. No take out, no delivery. We hope everyone stays safe during these difficult times. We will be back! 
@@ -217,7 +231,7 @@ closed:
     last_updated: 3/28
   - name: Vernon Grille
     url: https://www.vernongrille.com
-    instagram: https://www.instagram.com/VernonGrille/
+    instagram: VernonGrille
     phone: 718-489-3142
     hours: 10:30 AM - 9:00 PM
     address: 48-20 Vernon Blvd, Long Island City, NY 11101

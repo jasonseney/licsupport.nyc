@@ -5,6 +5,7 @@ url: http://jasonseney.github.io/licsupport.nyc
 # Custom vars
 github:
   repo: https://github.com/jasonseney/licsupport.nyc
+gtag: UA-162124722-1
 
 sass:
   # Where you keep your scss files

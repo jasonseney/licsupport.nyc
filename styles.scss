@@ -4,10 +4,6 @@
 
 @import "node_modules/tachyons-sass/tachyons.scss";
 
-.yellowtail {
-  font-family: "Yellowtail", cursive;
-}
-
 a {
   @extend .link, .dim, .dark-blue;
 }

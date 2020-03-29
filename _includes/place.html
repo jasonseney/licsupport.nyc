@@ -1,0 +1,54 @@
+<div class="w-100 w-100-m w-third-ns pa2">
+  <div class="bg-white shadow-4 br2 h-100 pa3">
+        <div class="f4 lh-copy mv0 pa0 ttu">
+          {% if place.url %}
+          <a class="link dim dark-blue" href="{{ place.url }}">{{ place.name }}</a>{% else %} {{ place.name }} {% endif %} {% if
+          place.instagram %}<a class="v-mid" href="https://www.instagram.com/{{ place.instagram }}/"><img style="width: 20px;" src="icons/instagram.png"/></a>{%
+          endif %} {% if place.untappd %}<a class="v-mid" href="{{ place.untappd }}"
+            ><img style="width: 25px;" src="icons/untappd.png"/></a
+          >{% endif %}
+        </div>
+    <div class="f7 lh-copy black-70">
+        {% if place.address %}
+            <a href="https://www.google.com/maps/place/{{place.address}}" target="_blank">Map</a>
+        {% endif %} {% if place.address and place.phone%}|{% endif %}
+        {% if place.phone %}
+            <a class="link dim purple" href="tel:{{ place.phone }}">{{ place.phone }}</a>
+        {% endif %}
+    </div>
+    {% if place.hours and is_open %}
+    <div class="f7 lh-copy black-70">{{ place.hours}}</div>
+    {% endif %}
+    <div>
+      <p class="i f6 lh-copy">{{ place.notes }}</p>
+    </div>
+    {% if is_open %}
+    <div class="mb1">
+      {% if place.delivery.caviar %}
+      <a href="{{ place.delivery.caviar }}"><img class="delivery_icon" src="icons/caviar.png"/></a>
+      {% endif %} {% if place.delivery.chownow %}
+      <a href="{{ place.delivery.chownow }}"><img class="delivery_icon" src="icons/chownow.png"/></a>
+      {% endif %} {% if place.delivery.doordash%}
+      <a href="{{ place.delivery.doordash }}"><img class="delivery_icon" src="icons/doordash.jpg"/></a>
+      {% endif %} {% if place.delivery.postmates%}
+      <a href="{{ place.delivery.postmates }}"><img class="delivery_icon" src="icons/postmates.jpg"/></a>
+      {% endif %} {% if place.delivery.seamless %}
+      <a href="{{ place.delivery.seamless }}"><img class="delivery_icon" src="icons/seamless.png"/></a>
+      {% endif %} {% if place.delivery.uber_eats %}
+      <a href="{{ place.delivery.uber_eats }}"><img class="delivery_icon" src="icons/uber_eats.png"/></a>
+      {% endif %} {% if place.delivery.upserve %}
+      <a href="{{ place.delivery.upserve }}"><img class="delivery_icon" src="icons/upserve.png"/></a>
+      {% endif %} {% if place.delivery.grubhub %}
+      <a href="{{ place.delivery.grubhub }}"><img class="delivery_icon" src="icons/grubhub.png"/></a>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    {% for link in place.links %}
+    <p><a class="f6 link dim dark-green" href="{{ link.url }}">{{ link.title }}</a></p>
+    {% endfor %}
+    {% if place.last_updated %}
+    <div class="f7 mb0 pb0 lh-copy black-40">Last updated: {{ place.last_updated}}</div>
+    {% endif %}
+  </div>
+</div>
