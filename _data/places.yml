@@ -3,12 +3,24 @@ open:
     url: https://www.bareburger.com
     instagram: https://www.instagram.com/bareburger/
     phone: 718-937-2273
-    hours: 12:00 PM - 9:00 PM 
+    hours: 12:00 PM - 9:00 PM (daily)
     address: 48-19 Vernon Boulevard, Long Island City NY 11101
     notes: Open for pick-up and delivery. Beer and wine available to go.
     links:
       - title: Donate for local kids meals
         url: https://www.gofundme.com/f/feeding-essential-workers-during-tough-times
+    last_updated: 3/28
+    
+  - name: Bella Via
+    url: https://bellavialic.com
+    instagram: https://www.instagram.com/bellavia.lic/
+    hours: 12pm - 9pm (Tues - Sunday)
+    phone: (718) 361-7510
+    address: 47-46 Vernon Blvd, Queens, NY 11101
+    notes: Open for pick-up and delivery. Wine, beer, and spirits available to go (call ahead).
+    delivery:
+      grubhub: https://www.grubhub.com/restaurant/bella-via-4746-vernon-blvd-long-island-city/322208
+      seamless: https://www.seamless.com/menu/bella-via-4746-vernon-blvd-long-island-city/322208
     last_updated: 3/28
 
   - name: BLVD Wine Bar
@@ -52,19 +64,57 @@ open:
         url: mailto:dutchkillsparties@Gmail.com
     last_updated: 3/28
 
+  - name: Little Chef Little Cafe  🌟
+    url: 
+    instagram: https://www.instagram.com/littlecheflittlecafe/
+    phone: 845-310-4255
+    hours: 10am - 2pm (daily)
+    address: 5-43 48th Ave. Long Island City, NY 11101 
+    notes: See instagram for the latest menu.
+    last_updated: 3/28
+
+  - name: Manetta's
+    url: http://www.manettaslic.com
+    instagram: https://www.instagram.com/manettaslic/
+    phone: (718) 786-6171
+    hours: Call for hours
+    address: 10-76 Jackson Ave, Long Island City, NY 11101 
+    notes: Open for pick-up and delivery.
+    delivery:
+        grubhub: https://www.grubhub.com/restaurant/woodbines-4710-vernon-blvd-long-island-city/309117
+        seamless: https://www.seamless.com/menu/manettas-restaurant-1076-jackson-ave-long-island-city/569127
+    last_updated: 3/28
+
   - name: Piatto 🌟 
     url: https://piattolic.com
     instagram: https://www.instagram.com/bareburger/
     phone: (718)-361-2751
-    hours: 11:30 AM - 10:00 PM
+    hours: 11am - 10pm (daily)
     address: 1-50 50th Ave, Long Island City, NY 11101
     notes: Open for pick-up and delivery. Wine, beer, and cocktails available to go.
     delivery:
         grubhub: https://www.grubhub.com/restaurant/piatto-wood-fire-pizza-150-50th-ave-long-island-city/589127
     last_updated: 3/28
 
+  - name: Woodbines
+    url: www.woodbineslic.com
+    instagram: https://www.instagram.com/woodbineslic/
+    phone: 718-361-8488
+    hours: 11am - 10pm (daily)
+    address: 47-10 Vernon Boulevard, Long Island City, NY 11101 
+    notes: Open for pick-up and delivery. Wine, beer, and cocktails available to go.
+    delivery:
+        grubhub: https://www.grubhub.com/restaurant/woodbines-4710-vernon-blvd-long-island-city/309117
+        seamless: https://www.seamless.com/menu/woodbines-4710-vernon-blvd-long-island-city/309117
+    last_updated: 3/28
+
 
 closed:
+  - name: Casa Enrique
+    url: https://www.henrinyc.com/casa-enrique/
+    instagram: https://www.instagram.com/casaenrique/
+    notes: Closed until further notice
+    last_updated: 3/28
   - name: Gantry Bar LIC
     instagram: https://www.instagram.com/gantry_bar_lic/
     notes: Closed until further notice
