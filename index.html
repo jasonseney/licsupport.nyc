@@ -29,7 +29,7 @@ title: Help Prospect Heights
   </head>
   <body class="w-100 sans-serif bg-black-10 code">
     <main class="black-70 mh5-ns mh2-m mh2">
-        <div class="f1 lh-title tc"><img src="/header-wide.png" /></div>
+        <div class="f1 lh-title tc"><img src="header-wide.png" /></div>
       <p class="f5 lh-copy tc">Support local businesses during the COVID-19 pandemic.</p>
       <p class="f7 lh-copy tc">
           <strong>Things are changing frequently – please follow each business on Instagram for their latest updates.</strong><br /> <a href="mailto:jrseney@gmail.com">Contribute corrections or additions here.</a>
@@ -62,8 +62,9 @@ title: Help Prospect Heights
             <div class="f7 lh-copy black-70">
                 {% if place.address %}
                     <a href="https://www.google.com/maps/place/{{place.address}}">Map</a>
-                {% endif %} {% if place.phone %}
-                    |&nbsp;<a class="link dim purple" href="tel:{{ place.phone }}">{{ place.phone }}</a>
+                {% endif %} {% if place.address and place.phone%}|&nbsp;{% endif %}
+                {% if place.phone %}
+                    <a class="link dim purple" href="tel:{{ place.phone }}">{{ place.phone }}</a>
                 {% endif %}
             </div>
             {% if place.hours %}
@@ -137,7 +138,7 @@ title: Help Prospect Heights
         {% endfor %}
 
         <div class="w-100 mv3">
-          <h1 class="f5 lh-copy tc"><a href="https://www.instagram.com/licrelief/">@licrelief</a>&#32;&bull;&#32;<a href="https://www.instagram.com/serviceworkerscoalition/">@serviceworkerscoalition</a>&#32;&bull;&#32;</h1>
+            <h1 class="f5 lh-copy tc"><a href="https://www.instagram.com/licrelief/">@licrelief</a>&#32;&bull;&#32;<a href="https://www.instagram.com/licqns/">@licqns</a>&#32;&bull;&#32;<a href="https://www.instagram.com/explore/tags/liclocal/">#liclocal</a></h1>
           <p class="f7 lh-copy tc">
             This site is <a href="https://github.com/jasonseney/licsupport.nyc">open source</a> and would love your contributions!
           </p>
