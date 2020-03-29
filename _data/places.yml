@@ -23,6 +23,21 @@ open:
       seamless: https://www.seamless.com/menu/bella-via-4746-vernon-blvd-long-island-city/322208
     last_updated: 3/28
 
+  - name: Blend LIC
+    url: https://www.blendlic.com
+    instagram: https://www.instagram.com/blendlic/
+    hours: 11am - 9pm (daily)
+    phone: 718-729-2800
+    address: 47-04 Vernon Boulevard, Long Island City, NY 11101
+    notes: Open for pick-up and delivery
+    delivery:
+      grubhub: https://www.grubhub.com/restaurant/blend-47-04-vernon-blvd-long-island-city/78556
+      seamless: https://www.seamless.com/menu/blend-47-04-vernon-blvd-long-island-city/78556
+    links:
+        - title: Order online
+          url: https://www.toasttab.com/blend-lic-vernon-blvd/v3#!/
+    last_updated: 3/28
+
   - name: BLVD Wine Bar
     url: https://www.blvdlic.com
     instagram: https://www.instagram.com/blvdlic/
@@ -52,6 +67,19 @@ open:
     links:
         - title: Donate to local health care workers
           url: https://www.gofundme.com/f/meal-delivery-for-HCWs
+    last_updated: 3/28
+
+  - name: Cyclo
+    url: https://www.cyclolic.com
+    instagram: https://www.instagram.com/cyclo_lic/
+    phone: 718-786-8309
+    hours: 11:30 am - 8:30 PM (daily)
+    address: 5-51 47th Avenue, Long Island City, NY 11101
+    notes: Open for take out and delivery.
+    delivery:
+        grubhub: https://www.grubhub.com/restaurant/cyclo-551-47th-ave-long-island-city/826785
+        postmates: https://postmates.com/merchant/cyclo-queens
+        seamless: https://www.seamless.com/menu/cyclo-551-47th-ave-long-island-city/826785
     last_updated: 3/28
 
   - name: Dutch Kills
@@ -96,6 +124,47 @@ open:
         grubhub: https://www.grubhub.com/restaurant/piatto-wood-fire-pizza-150-50th-ave-long-island-city/589127
     last_updated: 3/28
 
+  - name: Sapps LIC
+    url: https://www.sappslic.com
+    instagram: https://www.instagram.com/sapps_lic/
+    phone: 718-784-5555
+    hours: 1:30PM - 9:30PM (Mon-Sat)
+    address: 27-26 Jackson Ave, Long Island City, NY 11109 
+    notes: Open for takeout and delivery, food and drinks.
+    delivery:
+        grubhub: https://www.grubhub.com/restaurant/sapps-2726-jackson-ave-long-island-city/1447229
+        caviar: https://www.trycaviar.com/m/sapps-7647
+    last_updated: 3/28
+
+  - name: Skinny's Cantina
+    url: https://www.skinnyscantina.com
+    instagram: https://www.instagram.com/skinnyscantina/
+    phone: (718) 729-8300
+    hours: 1pm - 10:15pm (daily)
+    address: 4705 Center Blvd, Long Island City, NY 11109 
+    notes: Open for takeout and delivery for food and drinks.
+    delivery:
+        grubhub: https://www.grubhub.com/restaurant/skinnys-cantina-4705-center-blvd-long-island-city/264706
+        caviar: https://www.trycaviar.com/m/skinnys-cantina-12559
+        seamless: https://www.seamless.com/menu/skinnys-cantina-4705-center-blvd-long-island-city/264706
+        doordash: https://www.doordash.com/store/skinny-s-cantina-queens-176812/en-US
+        postmates: https://postmates.com/merchant/2208dc02-f312-4609-a7c7-7fd8187da87e
+    last_updated: 3/28
+
+  - name: Takumen
+    url: http://www.takumenlic.com
+    instagram: https://www.instagram.com/takumenlic/
+    phone: 718-361-7973
+    hours: 12pm - 9pm (daily)
+    address: 5-50 50TH AVENUE, LONG ISLAND CITY, NEW YORK, 11101
+    notes: Open for take out and delivery. 10% discount for neighbors (call or walk in).
+    delivery:
+        caviar: https://www.trycaviar.com/brooklyn-queens/takumen-izakaya-and-noodles-8112
+        grubhub: https://www.grubhub.com/restaurant/takumen-550-50th-ave-long-island-city/745232
+        seamless: https://www.seamless.com/menu/takumen-550-50th-ave-long-island-city/745232
+        uber_eats: https://www.ubereats.com/new-york/food-delivery/takumen/CoFqHZr6Q-CDVz4BP98ltQ
+    last_updated: 3/29
+
   - name: Woodbines
     url: www.woodbineslic.com
     instagram: https://www.instagram.com/woodbineslic/
@@ -110,14 +179,41 @@ open:
 
 
 closed:
+  - name: Blend on the Water
+    url: https://www.blendonthewater.com
+    instagram: https://www.instagram.com/blendonthewater/
+    hours: 11am - 9pm (daily)
+    phone: 718-606-9851
+    address: 4540 Center Blvd, Long Island City, NY 11109
+    notes: "Due to current circumstances, we have made the difficult decision to temporarily close Blend on the Water.  We will reopen as soon as it is prudent to do so."
+    last_updated: 3/29
   - name: Casa Enrique
     url: https://www.henrinyc.com/casa-enrique/
     instagram: https://www.instagram.com/casaenrique/
     notes: Closed until further notice
     last_updated: 3/28
+  - name: Communitea
+    url: https://www.facebook.com/CommuniteaLIC
+    instagram: https://www.instagram.com/communitealic/
+    notes: Closed until further notice
+    last_updated: 3/29
   - name: Gantry Bar LIC
     instagram: https://www.instagram.com/gantry_bar_lic/
     notes: Closed until further notice
+    last_updated: 3/28
+  - name: Mu Ramen
+    url: https://www.muramennyc.com
+    instagram: https://www.instagram.com/mu_ramen/
+    notes: With a heavy heart we decided to close Mu Ramen for the next two weeks or until situation abates to support NYC’s efforts to contain the spread of COVID-19. We believe this is the right step to take to ensure the safety of our staff, guests and our community. We will continue to update you as situation evolves and look forward to welcoming you all back soon.
+    last_updated: 3/29
+  - name: Shi
+    url: https://www.shilic.com
+    instagram: https://www.instagram.com/shi_lic/
+    phone: (347) 242-2448
+    address: 47-20 Center Blvd, Long Island City, NY 11109 
+    notes: We at SHI are going full shutdown during the Corona Virus Crisis. No take out, no delivery. We hope everyone stays safe during these difficult times. We will be back! 
+    delivery:
+        caviar: https://www.trycaviar.com/m/shi-5492
     last_updated: 3/28
   - name: Vernon Grille
     url: https://www.vernongrille.com
