@@ -5,7 +5,10 @@ url: http://jasonseney.github.io/licsupport.nyc
 # Custom vars
 github:
   repo: https://github.com/jasonseney/licsupport.nyc
+
 gtag: UA-162124722-1
+
+contribute_link: https://docs.google.com/forms/d/e/1FAIpQLSdml_XQeSsA-Wsgtb3dj1OKG5xI-RcydqjA_YSl4uLhsQ3Lvw/viewform
 
 sass:
   # Where you keep your scss files
