@@ -7,7 +7,7 @@ open:
     address: 48-19 Vernon Boulevard, Long Island City NY 11101
     notes: Open for pick-up and delivery. Craft beer and cocktails available.
     links:
-      - title: Order online here
+      - title: Order online
         url: https://www.toasttab.com/americanbrass/v3#!/
       - title: Gantry Hospitality Family Relief Fund
         url: https://www.gofundme.com/f/gantry-hospitality-family-relief-fund?utm_source=customer
@@ -21,6 +21,8 @@ open:
     address: 48-19 Vernon Boulevard, Long Island City NY 11101
     notes: Open for pick-up and delivery. Beer and wine available to go.
     links:
+      - title: Order online
+        url: https://order.bareburger.com/location/Long-Island-City
       - title: Donate for local kids meals
         url: https://www.gofundme.com/f/feeding-essential-workers-during-tough-times
     last_updated: 3/28
@@ -83,6 +85,33 @@ open:
           url: https://www.gofundme.com/f/meal-delivery-for-HCWs
     last_updated: 3/28
 
+  - name: Corner Bistro LIC
+    url: https://www.cornerbistrony.com/BistroLICTakeout.php
+    instagram: cornerbistrony
+    phone: (718) 606-6500
+    hours: 9am - 10pm (daily)
+    address: 47-18 Vernon Blvd, Long Island City, NY 11101
+    notes: Open for take out and delivery.
+    delivery:
+        caviar: https://www.trycaviar.com/m/corner-bistro-lic-3788
+        seamless: https://www.seamless.com/menu/corner-bistro-47-18-vernon-blvd-long-island-city/298636
+        grubhub: https://www.grubhub.com/restaurant/corner-bistro-47-18-vernon-blvd-long-island-city/298636
+        doordash: https://www.doordash.com/store/corner-bistro-queens-198658/en-US
+        uber_eats: https://www.ubereats.com/new-york/food-delivery/corner-bistro-lic/KwxMtxtBS5asFv15hBzRGQ
+    last_updated: 3/28
+
+  - name: Creek & Cave
+    url: https://themenustar1.com/webspace/menus.php?code=creeklic.mobile-webview1.com
+    instagram: creekcavelic
+    phone: 718-706-8783
+    hours: 4pm - 9pm (daily)
+    address: 10-93 Jackson Ave. Long Island, , NY 11101 
+    notes: Open for take out and delivery food and drinks. <b>Order by phone prefered.</b>
+    delivery:
+        grubhub: https://www.grubhub.com/restaurant/the-creek--the-cave-10-93-jackson-ave-long-island-city/321326
+        postmates: https://postmates.com/merchant/the-creek-and-the-cave-queens
+    last_updated: 3/29
+
   - name: Cyclo
     url: https://www.cyclolic.com
     instagram: cyclo_lic
@@ -106,6 +135,30 @@ open:
         url: mailto:dutchkillsparties@Gmail.com
     last_updated: 3/28
 
+  - name: Hibino
+    url: https://hibino-lic.com
+    instagram: hibinolic
+    phone: 718-392-519
+    hours: 12pm - 2:30pm, 5:30pm–8:30pm (daily, hours may change)
+    address: 10-70 Jackson Avenue, LIC, NY 11101
+    notes: Open for food pick-up and delivery.
+    delivery:
+        chownow: https://direct.chownow.com/order/2234/locations/2921
+    last_updated: 3/29
+
+  - name: HUPO 
+    url: http://www.hupo.nyc
+    instagram: huponyc
+    phone: (718)255-6722
+    hours: 12pm - 3:30pm and 5pm - 9pm (daily)
+    address: 10-07 50th Ave, Long Island City, NY 11101
+    notes: Open for food and wine pick-up and delivery.
+    delivery:
+        caviar: https://www.trycaviar.com/m/hupo-16760
+        grubhub: https://www.grubhub.com/restaurant/hupo-10-07-50th-ave-long-island-city/1967225
+        seamless: https://www.seamless.com/menu/view/1967225
+    last_updated: 3/29
+
   - name: Little Chef Little Cafe  🌟
     url: 
     instagram: littlecheflittlecafe
@@ -127,6 +180,18 @@ open:
         seamless: https://www.seamless.com/menu/manettas-restaurant-1076-jackson-ave-long-island-city/569127
     last_updated: 3/28
 
+  - name: M.Wells
+    url: https://www.magasinwells.com
+    instagram: mwellshq
+    phone: 718-786-9060
+    hours: 12pm - 7pm
+    address: 43-15 Crescent Street, Long Island City, NY 11101
+    notes: Food and wine available for pick up, delivery coming soon. "We are adapting some of our favorite dishes including Meat Pie, Cassoulet, Chowder, French Onion Soup, Tiramisu and more available for pick up from 12 Noon - 7pm at our Long Island City restaurant."
+    links:
+        - title: Order online for pick up
+          url: https://www.magasinwells.com/online-ordering/steakhouse/menu
+    last_updated: 3/29
+
   - name: Piatto 🌟 
     url: https://piattolic.com
     instagram: bareburger
@@ -136,6 +201,18 @@ open:
     notes: Open for pick-up and delivery. Wine, beer, and cocktails available to go.
     delivery:
         grubhub: https://www.grubhub.com/restaurant/piatto-wood-fire-pizza-150-50th-ave-long-island-city/589127
+    last_updated: 3/28
+
+  - name: Pop's Deli of LIC
+    url: https://popsdelioflic.com
+    instagram: popsdelioflic
+    phone: 718-406-9999
+    hours: 10am - 4pm (Mon-Fri), 10am - 6pm (Sat)
+    address: 47-31 Vernon Blvd. Long Island City, NY 11101
+    notes: Open for pick-up and delivery.
+    delivery:
+        grubhub: https://www.grubhub.com/restaurant/pops-deli-of-long-island-city-47-31-vernon-blvd-long-island/1659820
+        uber_eats: https://www.ubereats.com/new-york/food-delivery/pops-deli-of-lic/hutGDTWYR6qGbXCHw2T18g
     last_updated: 3/28
 
   - name: Sapps LIC
@@ -165,6 +242,28 @@ open:
         postmates: https://postmates.com/merchant/2208dc02-f312-4609-a7c7-7fd8187da87e
     last_updated: 3/28
 
+  - name: Spice Thai
+    url: http://www.spicelic.com
+    instagram: skinnyscantina
+    phone: (718) 392-7888
+    hours: 11:30 AM - 10:30 PM(Sun-Thurs)<br />11:30 AM - 11:15 PM (Fri-Sat)
+    address: 4745 Vernon Boulevard, Long Island City, NY 11101
+    notes: Open for takeout and delivery.
+    delivery:
+        grubhub: https://www.grubhub.com/restaurant/spice-thai---4745-vernon-blvd-4745-vernon-blvd-queens/275825
+        seamless: https://www.seamless.com/menu/spice-thai---4745-vernon-blvd-4745-vernon-blvd-queens/275825?a=1019
+        uber_eats: https://www.ubereats.com/new-york/food-delivery/spice-long-island-city/nKLxR8gARziUV7S3Va4F3g
+    last_updated: 3/28
+
+  - name: Sweetleaf Coffee
+    url: https://sweetleafcoffee.com/pages/jackson-avenue
+    instagram: sweetleafnyc
+    phone: 917-832-6726
+    hours: 8am - 1pm
+    address: 10-93 Jackson Ave, Long Island City, NY 11101
+    notes: <b>Jackson Ave location.</b> Open for takeout.
+    last_updated: 3/28
+
   - name: Takumen
     url: http://www.takumenlic.com
     instagram: takumenlic
@@ -177,6 +276,20 @@ open:
         grubhub: https://www.grubhub.com/restaurant/takumen-550-50th-ave-long-island-city/745232
         seamless: https://www.seamless.com/menu/takumen-550-50th-ave-long-island-city/745232
         uber_eats: https://www.ubereats.com/new-york/food-delivery/takumen/CoFqHZr6Q-CDVz4BP98ltQ
+    last_updated: 3/29
+
+  - name: Tamashi Ramen
+    url: http://tamashiiny.com
+    instagram: tamashii_ramen_nyc
+    phone: (917) 905-4134
+    hours: 12pm - 11pm (daily)
+    address: 47-36 Vernon Blvd, Queens, NY 11101
+    notes: Open for take out and delivery.
+    delivery:
+        seamless: https://www.seamless.com/menu/tamashii-ramen---lic-4736-vernon-blvd-long-island-city/778062
+        grubhub: https://www.grubhub.com/restaurant/tamashii-ramen---lic-4736-vernon-blvd-long-island-city/778062
+        doordash: https://www.doordash.com/store/tamashii-blue-queens-134175/en-US
+        postmates: https://postmates.com/merchant/tamashii-ramen-queens
     last_updated: 3/29
 
   - name: Woodbines
@@ -204,7 +317,7 @@ closed:
   - name: Casa Enrique
     url: https://www.henrinyc.com/casa-enrique/
     instagram: casaenrique
-    notes: Closed until further notice
+    notes: We have made the difficult decision to temporarily close Casa Enrique. Our priority is the health and safety of our staff, our customers, and our community. We believe that closing is in the best interest of public health at this time. We look forward to welcoming our customers back when it is safe for everyone to re-open. 
     last_updated: 3/28
   - name: Communitea
     url: https://www.facebook.com/CommuniteaLIC
@@ -213,12 +326,19 @@ closed:
     last_updated: 3/29
   - name: Gantry Bar LIC
     instagram: gantry_bar_lic
-    notes: Closed until further notice
+    notes: Hi Everyone, like every other business we too shall be closing our doors tonight at 8pm. A huge thank you to all of our fantastic staff & fantastic customers over the past 4 years. Hopefully we will all back to normal living very soon, watching sports and having a pint at our local. Please look after yourselves & your loved ones and stay safe. The whole world is going through the same thing at the same time right now, Let’s try to stay positive and we will come out on the other side much stronger and more resilient. But for now wishing you all health and happiness.<br />Please God we will never have to endure this again. Happy St. Patrick’s to all of us, but for now Slán Go Fóill.<br />Love Paula & The Gantry Team
     last_updated: 3/28
   - name: Mu Ramen
     url: https://www.muramennyc.com
     instagram: mu_ramen
     notes: With a heavy heart we decided to close Mu Ramen for the next two weeks or until situation abates to support NYC’s efforts to contain the spread of COVID-19. We believe this is the right step to take to ensure the safety of our staff, guests and our community. We will continue to update you as situation evolves and look forward to welcoming you all back soon.
+    last_updated: 3/29
+  - name: R40
+    url: https://www.r40lic.com
+    instagram: r40lic
+    phone: (718) 440-9484
+    address: 47-16 Vernon Blvd, Long Island City, NY 11101
+    notes: It's with heavy hearts that we've come to the decision to temporarily close doors to our new restaurant during such a troublesome period. We believe the safety and health of our guests and employees are of the utmost importance.<br /> We will continue to post updates as soon as we have them. We are thankful to the community for its continual love and support throughout the last couple of weeks and we extend our hearts out to all of our queens brothers and sisters facing the same burden of closing doors to their establishments as well.<br />Until our next dinner,<br />– R40 Team
     last_updated: 3/29
   - name: Shi
     url: https://www.shilic.com
