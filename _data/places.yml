@@ -1,4 +1,16 @@
 open:
+  - name: 51st Bakery & Cafe
+    url: http://www.51stbakeryandcafe.com
+    instagram: 51stbakeryandcafe
+    phone: 718-707-0554
+    hours: 8am - 3pm (daily)
+    address: 5-33 51ST Avenue, Long Island City, NY, 11101
+    notes: Open for take out and delivery.
+    delivery:
+        doordash: https://www.doordash.com/store/51st-bakery-and-cafe-queens-703862/en-US
+        uber_eats: https://www.ubereats.com/new-york/food-delivery/51st-bakery-and-cafe/Q71tfwy4ShiVNnOsZkY7Ww
+    last_updated: 3/30
+
   - name: American Brass
     url: https://www.americanbrasslic.com
     instagram: american_brass
@@ -146,6 +158,15 @@ open:
         chownow: https://direct.chownow.com/order/2234/locations/2921
     last_updated: 3/29
 
+  - name: THE HUNTRESS whiskey n’ wings
+    url: https://www.facebook.com/pg/thehuntressbar/
+    instagram: esshospitality
+    phone: (718) 685-2922
+    hours: 4pm - ? (daily)
+    address: 2403 41st Ave, Long Island City, NY 11101
+    notes: Open for take out food and drinks. Call for pick up orders.
+    last_updated: 3/30
+
   - name: HUPO 
     url: http://www.hupo.nyc
     instagram: huponyc
@@ -214,6 +235,17 @@ open:
         grubhub: https://www.grubhub.com/restaurant/pops-deli-of-long-island-city-47-31-vernon-blvd-long-island/1659820
         uber_eats: https://www.ubereats.com/new-york/food-delivery/pops-deli-of-lic/hutGDTWYR6qGbXCHw2T18g
     last_updated: 3/28
+
+  - name: Rockaway Brewery
+    url: https://rockawaybrewco.com
+    instagram: rockawaybrewco
+    phone: (718) 482-6528
+    hours: 12pm - 8pm (daily)
+    address: 46-01 5th Street, Long Island City, NY, 11101
+    notes: Open for to go cans and bottles. Deliveries at 3pm and 5pm.
+    links:
+        - title: Order online
+          url: https://rockawaybrewco.com/delivery
 
   - name: Sapps LIC
     url: https://www.sappslic.com
@@ -291,6 +323,21 @@ open:
         doordash: https://www.doordash.com/store/tamashii-blue-queens-134175/en-US
         postmates: https://postmates.com/merchant/tamashii-ramen-queens
     last_updated: 3/29
+
+  - name: THE BARONESS bar + kitchen
+    url: https://www.instagram.com/p/B-SUDhupNrz/
+    instagram: thebaronessbar
+    phone: 347-681-8207
+    hours: 4pm - ? (daily)
+    address: 4126 Crescent St, Long Island City, NY 11101
+    notes: Open for take out, walk up window for food and drinks. Call for pick up orders.
+    last_updated: 3/30
+
+  - name: TADA Noodles
+    url: https://tadanoodles.com
+    instagram: tadanoodles
+    notes: Jjajangmyeon noodles, delivery only (order on the website).
+    last_updated: 3/30
 
   - name: Woodbines
     url: www.woodbineslic.com
