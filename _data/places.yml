@@ -124,18 +124,6 @@ open:
         postmates: https://postmates.com/merchant/the-creek-and-the-cave-queens
     last_updated: 3/29
 
-  - name: Cyclo
-    url: https://www.cyclolic.com
-    instagram: cyclo_lic
-    phone: 718-786-8309
-    hours: 11:30 am - 8:30 PM (daily)
-    address: 5-51 47th Avenue, Long Island City, NY 11101
-    notes: Open for take out and delivery.
-    delivery:
-        grubhub: https://www.grubhub.com/restaurant/cyclo-551-47th-ave-long-island-city/826785
-        postmates: https://postmates.com/merchant/cyclo-queens
-        seamless: https://www.seamless.com/menu/cyclo-551-47th-ave-long-island-city/826785
-    last_updated: 3/28
 
   - name: Dutch Kills
     instagram: dutchkillsbar
@@ -386,6 +374,18 @@ closed:
     instagram: communitealic
     notes: Closed until further notice
     last_updated: 3/29
+  - name: Cyclo
+    url: https://www.cyclolic.com
+    instagram: cyclo_lic
+    phone: 718-786-8309
+    hours: 11:30 am - 8:30 PM (daily)
+    address: 5-51 47th Avenue, Long Island City, NY 11101
+    notes: Closed as of March 31st until further notice.
+    delivery:
+        grubhub: https://www.grubhub.com/restaurant/cyclo-551-47th-ave-long-island-city/826785
+        postmates: https://postmates.com/merchant/cyclo-queens
+        seamless: https://www.seamless.com/menu/cyclo-551-47th-ave-long-island-city/826785
+    last_updated: 3/28
   - name: Gantry Bar LIC
     instagram: gantry_bar_lic
     notes: Hi Everyone, like every other business we too shall be closing our doors tonight at 8pm. A huge thank you to all of our fantastic staff & fantastic customers over the past 4 years. Hopefully we will all back to normal living very soon, watching sports and having a pint at our local. Please look after yourselves & your loved ones and stay safe. The whole world is going through the same thing at the same time right now, Let’s try to stay positive and we will come out on the other side much stronger and more resilient. But for now wishing you all health and happiness.<br />Please God we will never have to endure this again. Happy St. Patrick’s to all of us, but for now Slán Go Fóill.<br />Love Paula & The Gantry Team
