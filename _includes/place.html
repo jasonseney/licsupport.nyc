@@ -10,10 +10,10 @@
         </div>
     <div class="f7 lh-copy black-70">
         {% if place.address %}
-            <a href="https://www.google.com/maps/place/{{place.address}}" target="_blank">Map</a>
+            <a href="https://www.google.com/maps/place/{{place.address}}" target="_blank">🗺 Map</a>
         {% endif %} {% if place.address and place.phone%}|{% endif %}
         {% if place.phone %}
-            <a class="link dim purple" href="tel:{{ place.phone }}">{{ place.phone }}</a>
+            <a class="link dim purple" href="tel:{{ place.phone }}">📞 {{ place.phone }}</a>
         {% endif %}
     </div>
     {% if place.hours and is_open %}

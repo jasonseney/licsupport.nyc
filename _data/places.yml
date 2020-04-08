@@ -91,6 +91,18 @@ open:
           url: https://www.blvdlic.com/shop
     last_updated: 3/28
 
+  - name: Bricktown Bagels & Cafe
+    url: https://www.blvdlic.com
+    hours: 6:30 am - 4:30pm (3:30pm on Sunday)
+    phone: (718) 361-2428
+    address: 51-06 Vernon Blvd, Long Island City, NY 11101
+    notes: Open for pick up and delivery (hours not confirmed).
+    delivery:
+      doordash: https://www.doordash.com/store/bricktown-bagel-cafe-queens-704108/en-US
+      grubhub: https://www.grubhub.com/restaurant/bricktown-bagel--cafe-51-06-vernon-blvd-long-island-city/299866
+      seamless: https://www.seamless.com/menu/bricktown-bagel--cafe-51-06-vernon-blvd-long-island-city/299866
+    last_updated: 4/8
+
   - name: Centro Pizza Bar 🌟 
     url: https://www.centropizzabar.com
     instagram: centropizzabar
@@ -105,6 +117,17 @@ open:
         - title: Donate to local health care workers
           url: https://www.gofundme.com/f/meal-delivery-for-HCWs
     last_updated: 3/28
+
+  - name: Clever Blend Coffee
+    url: https://www.cleverblend.com
+    instagram: clever_blend
+    hours: Hours unknown
+    address: 2706 Queens Plaza S, Long Island City, NY 11101
+    notes: Open for pickup. Use code "ITSGONNABEOK" for 10% off online orders.
+    links:
+        - title: Email
+          url: mailto:cleverblend.office@gmail.com
+    last_updated: 4/8
 
   - name: Corner Bistro LIC
     url: https://www.cornerbistrony.com/BistroLICTakeout.php
@@ -163,6 +186,18 @@ open:
     address: 2403 41st Ave, Long Island City, NY 11101
     notes: Open for take out food and drinks. Call for pick up orders.
     last_updated: 3/30
+
+  - name: Hunters Point Wine & Spirits
+    url: https://www.hunterspointwines.com
+    instagram: hunterspointwines
+    phone: 718-472-9463
+    hours: 12pm - 8pm (daily)
+    address: 47-07 Vernon Blvd.Long Island City, NY 11101
+    notes: Open for pick up and delivery (call ahead for pickup).
+    links:
+        - title: Email
+          url: mailto:info@hunterspointwines.com
+    last_updated: 4/8
 
   - name: HUPO 
     url: http://www.hupo.nyc
@@ -304,8 +339,8 @@ open:
     instagram: sweetleafnyc
     phone: 917-832-6726
     hours: 8am - 1pm
-    address: 10-93 Jackson Ave, Long Island City, NY 11101
-    notes: <b>Jackson Ave location.</b> Open for takeout.
+    address: Sweetleaf Coffee near Long Island City
+    notes: <b>Multiple locations</b> - open for takeout.
     last_updated: 3/28
 
   - name: Takumen
@@ -373,6 +408,12 @@ closed:
     address: 4540 Center Blvd, Long Island City, NY 11109
     notes: "Due to current circumstances, we have made the difficult decision to temporarily close Blend on the Water.  We will reopen as soon as it is prudent to do so."
     last_updated: 3/29
+  - name: Cannelle LIC
+    url: https://www.cannellelic.com
+    phone: 718-937-8500
+    address: 5-11 47th Ave, Long Island City, NY 11101
+    notes: Closed until further notice.
+    last_updated: 4/8
   - name: Casa Enrique
     url: https://www.henrinyc.com/casa-enrique/
     instagram: casaenrique
@@ -399,6 +440,16 @@ closed:
     instagram: gantry_bar_lic
     notes: Hi Everyone, like every other business we too shall be closing our doors tonight at 8pm. A huge thank you to all of our fantastic staff & fantastic customers over the past 4 years. Hopefully we will all back to normal living very soon, watching sports and having a pint at our local. Please look after yourselves & your loved ones and stay safe. The whole world is going through the same thing at the same time right now, Let’s try to stay positive and we will come out on the other side much stronger and more resilient. But for now wishing you all health and happiness.<br />Please God we will never have to endure this again. Happy St. Patrick’s to all of us, but for now Slán Go Fóill.<br />Love Paula & The Gantry Team
     last_updated: 3/28
+  - name: LIC Market
+    url: http://www.licmarket.com
+    instagram: licmarket
+    phone: (718) 361-0013
+    address: 21-52 44th Dr,Long Island City, NY, 11101
+    notes: Closed until further notice.
+    links:
+        - title: Donate to the team fund
+          url: https://www.gofundme.com/f/lic-market-team-needs-help
+    last_updated: 4/8
   - name: Mu Ramen
     url: https://www.muramennyc.com
     instagram: mu_ramen
